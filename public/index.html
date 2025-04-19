@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+        
+        <div id="login-section">
+            <h2>Select User Type</h2>
+            <div class="button-group">
+                <button id="admin-btn">Admin</button>
+                <button id="user-btn">User</button>
+            </div>
+        </div>
+        
+        <div id="admin-login" class="hidden">
+            <h2>Admin Login</h2>
+            <input type="password" id="admin-password" placeholder="Enter admin password">
+            <button id="admin-login-btn">Login</button>
+            <button id="back-btn-admin" class="back-btn">Back</button>
+        </div>
+        
+        <div id="admin-dashboard" class="hidden">
+            <h2>Admin Dashboard</h2>
+            <div class="button-group">
+                <button id="add-book-btn">Add Book</button>
+                <button id="view-books-btn">View All Books</button>
+                <button id="check-returns-btn">Check Returns</button>
+                <button id="calculate-fine-btn">Calculate Fine</button>
+                <button id="logout-admin-btn" class="logout-btn">Logout</button>
+            </div>
+            <div id="admin-content"></div>
+        </div>
+        
+        <div id="user-dashboard" class="hidden">
+            <h2>User Dashboard</h2>
+            <div class="button-group">
+                <button id="search-books-btn">Search Books</button>
+                <button id="purchase-book-btn">Purchase Book</button>
+                <button id="return-book-btn">Return Book</button>
+                <button id="logout-user-btn" class="logout-btn">Logout</button>
+            </div>
+            <div id="user-content"></div>
+        </div>
+    </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
