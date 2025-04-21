@@ -59,20 +59,19 @@ Admin credentials:
 
 ## Screenshots
 
-![1](public/css/1.png)
+<img src="public/css/1.png" width="600">
 
-![2](public/css/2.png)
+<img src="public/css/2.png" width="600">
 
-![3](public/css/3.png)
+<img src="public/css/3.png" width="600">
 
-![4](public/css/4.png)
+<img src="public/css/4.png" width="600">
 
-![5](public/css/5.png)
+<img src="public/css/5.png" width="600">
 
-![6](public/css/6.png)
+<img src="public/css/6.png" width="600">
 
-![7](public/css/7.png)
-
+<img src="public/css/7.png" width="600">
 
 ## Future Enhancements
 - User registration and authentication system
