@@ -25,20 +25,28 @@ A web-based library management system that streamlines book inventory, user mana
 
 ## Installation
 
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/yourusername/library-management-system.git
+```
 
 # Navigate to project directory
+```bash
 cd library-management-system
+```
 
 # Install dependencies
+```bash
 npm install
+```
 
 # Set up the database
+
 # Run schema.sql in MySQL client
 
 # Start the application
+```bash
 npm start
 ```
 
@@ -53,11 +61,23 @@ Admin credentials:
 
 ![1](public/css/1.png)
 
+![2](public/css/2.png)
+
+![3](public/css/3.png)
+
+![4](public/css/4.png)
+
+![5](public/css/5.png)
+
+![6](public/css/6.png)
+
+![7](public/css/7.png)
+
+
 ## Future Enhancements
 - User registration and authentication system
 - Email notifications for due dates
 - Book reservation system
 - Reporting and analytics dashboard
 
-## License
-[Your chosen license]
+
