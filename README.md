@@ -26,26 +26,26 @@ A web-based library management system that streamlines book inventory, user mana
 ## Installation
 
 
-# Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/yourusername/library-management-system.git
 ```
 
-# Navigate to project directory
+### Navigate to project directory
 ```bash
 cd library-management-system
 ```
 
-# Install dependencies
+### Install dependencies
 ```bash
 npm install
 ```
 
-# Set up the database
+### Set up the database
 
-# Run schema.sql in MySQL client
+### Run schema.sql in MySQL client
 
-# Start the application
+### Start the application
 ```bash
 npm start
 ```
